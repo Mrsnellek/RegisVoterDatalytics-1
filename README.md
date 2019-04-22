@@ -33,7 +33,7 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 
 1. Native voters who voted as UAF (no party affiliation) is growing significantly.
 2. Voter percentage by race hasn't change much in the last 5 year although the total voter counts has increased by about 10,000 each year.
-
+3. [Voter who switched party.] (https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Plots/Switching_Political_Parties.png)
 There is a significant difference <<<0.05 in the number of voters in the Dem, Rep, and UAF political parties in almost all racial groups in our findings.
 
 Please also check our [detailed reports](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/ReportFindings.md),[Power BI dashboard](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Dashboards.pbix), [presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) and [pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4).
