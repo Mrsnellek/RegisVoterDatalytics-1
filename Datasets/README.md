@@ -56,12 +56,11 @@
 ### 4. [Address List and Geo info](http://results.openaddresses.io/)
 
 #### Dataset:
-[Denver Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608381/us/co/denver.zip),
-[Colorado Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608168/us/co/statewide.zip),
-[Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*
+[Counties in Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*, [Denver Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608381/us/co/denver.zip),
+[Colorado Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608168/us/co/statewide.zip)
 
 #### Reference:
-[Data cleansing process] (https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverAddressCensusBlock.ipynb) by Leo <br>
+[Data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverAddressCensusBlock.ipynb) by Leo <br>
 [Final Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
 
 ## Clean Dataset
@@ -84,3 +83,4 @@ Merged results of Denver Address and Census Block Group Datasets.
 Final master dataset to run analysis code against, results from merging SurnameToRaces_Census2010.csv, DenverAddress_CensusBlockGroup.csv and cleaned denver voter history data 2014-2019.
 
 ## Data Architect Diagram
+[PDF](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Datasets/Diagram.pdf)
