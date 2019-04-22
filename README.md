@@ -12,6 +12,8 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 
 ### Clients: Campaigners/Activists
 #### User Case 1: Colorado Demovratic Party
+[Video Link](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/ClientRequest%20from%20CoDem.mov)
+
 #### Current problems:
 1. Inability to identify voter’s race and ethnicity.
 2. Unable to determine if race/ethnicity was a primary factor when voting. 
@@ -28,7 +30,9 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 2. Comparision between different groups and locations
 
 #### Main finding:
-Please also check our demo
+
+Please also check our [detailed reports](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/ReportFindings.md),[Power BI dashboard](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Dashboards.pbix), [presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) and [pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4).
+
 
 ### Next stage:
 1. Expand to the whole state
