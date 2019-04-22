@@ -1,4 +1,4 @@
-## [Raw dataset](https://drive.google.com/drive/folders/1-YH2q9zUzGlb3osYTGMf4n9hRPZo4OUE):
+## [Raw dataset](https://drive.google.com/drive/folders/1-YH2q9zUzGlb3osYTGMf4n9hRPZo4OUE)
 
 ### 1. [Census Block Group in Colorado_2013-2017](https://data.colorado.gov/browse?q=census%20block%20groups&sortBy=relevance) - *CIM*
 
@@ -64,7 +64,7 @@
 [Data cleansing process] (https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverAddressCensusBlock.ipynb) by Leo <br>
 [Final Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
 
-## [Clean Dataset]
+## Clean Dataset
 
 Our clean and final master datasets can be found in the team's [Google Drive](https://drive.google.com/drive/folders/1VQgAPKMzG7VStU8c5u1aivYBI6EGBREG) 
 
@@ -82,3 +82,5 @@ Merged results of Denver Address and Census Block Group Datasets.
 
 ### 5. Denver_Voters_Master_2014-2019.csv
 Final master dataset to run analysis code against, results from merging SurnameToRaces_Census2010.csv, DenverAddress_CensusBlockGroup.csv and cleaned denver voter history data 2014-2019.
+
+## Data Architect Diagram
