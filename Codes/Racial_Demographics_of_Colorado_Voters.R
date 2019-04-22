@@ -13,9 +13,9 @@ set.seed(1)
 
 # Import data files
 # dt = Denver Voters Master
-dt <- fread("/Users/ksorauf/OneDrive - Regis University/Gocode/2019/Denver_Voters_Master_2014-2019_new.csv")
+dt <- fread("Denver_Voters_Master_2014-2019_new.csv")
 # ct = Census block data with lattitudes and longitudes for attach to Denver Voters
-ct <- fread("/Users/ksorauf/OneDrive - Regis University/Gocode/2019/DenverCensusBlockGroup_Geoinfo20190421-1542.csv")
+ct <- fread("DenverCensusBlockGroup_Geoinfo20190421-1542.csv")
 
 # Change the name of the CensusBlockGroup to be consistant with the Denver Voters 
 setnames(ct, old="Tract-CensusBlockGroup", new="Tract-CensusBlock")
@@ -325,7 +325,7 @@ write.csv(nsmallchange, "Native_Party_Switch_14_19.csv")
 
 # Import data files
 # dt = Denver Voters Master
-cd <- fread("/Users/ksorauf/OneDrive - Regis University/Gocode/2019/CensusBlockGroup_2013-17.csv")
+cd <- fread("CensusBlockGroup_2013-17.csv")
 
 # Sum the total number of people over 18
 cd$Total_Voters_Over18 <- data.table(rowSums(cd[,c("age18_24", "age25_29","age30_34","age35_39","age40_44","age45_49","age50_54","age55_59",
