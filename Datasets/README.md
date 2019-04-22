@@ -11,8 +11,8 @@
 [Geojson](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2010/kfm9-mvzv) <br>
 
 #### Reference: 
-[Census Data explanation](https://github.com/GoCodeColorado/GoCodeColorado-kbase-public/blob/187410313442847c357e04fb553a121941b297bf/Resources_for_Participants/Data/DOLA_Census_Data_GoCodeColorado.pdf) by Go Code Colorado & Department of Local Affair
-[Census Field Description](https://data.colorado.gov/Demographics/Census-Field-Descriptions/qten-sdpn/data) by OIT & DOLA
+[Census Data explanation](https://github.com/GoCodeColorado/GoCodeColorado-kbase-public/blob/187410313442847c357e04fb553a121941b297bf/Resources_for_Participants/Data/DOLA_Census_Data_GoCodeColorado.pdf) by Go Code Colorado & Department of Local Affair<br>
+[Census Field Description](https://data.colorado.gov/Demographics/Census-Field-Descriptions/qten-sdpn/data) by OIT & DOLA<br>
 [Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_CensusBlockGroup%202013-2017.ipynb) by Leo
 
 #### Note:
@@ -32,7 +32,7 @@
 [2019](http://coloradovoters.info/downloads/20190101/) <br>
 
 #### Reference: 
-[Readme on data format](http://coloradovoters.info/downloads/readme.doc) by http://coloradovoters.info
+[Readme on data format](http://coloradovoters.info/downloads/readme.doc) by http://coloradovoters.info<br>
 [Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
 
 #### Note:
@@ -45,19 +45,19 @@
 [Surnames Occuring 100 or more times](https://www2.census.gov/topics/genealogy/2010surnames/names.zip)
 
 #### Reference:
-[Technical Documentation: Demographic Aspects of Surnames](https://www2.census.gov/topics/genealogy/2010surnames/surnames.pdf) by US Census Bureau
+[Technical Documentation: Demographic Aspects of Surnames](https://www2.census.gov/topics/genealogy/2010surnames/surnames.pdf) by US Census Bureau<br>
 [Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_Surnames_2010Census_Full_CSV.ipynb) by Leo
 
 #### Note:
 1. Black is used interchangeably with Non-Hispanic Black or African American Alone; Hispanic is used interchangeably with Hispanic or Latino origin; Asian and Native Hawaiian and Other Pacific Islander is used interchangeably with Non-Hispanic Asian and Native Hawaiian and Other Pacific Islander Alone.
 2. "(S)" appears where the percentages were suppressed for confidentiality.
 
-### 4.[Address List and Geo info](http://results.openaddresses.io/)
+### 4. [Address List and Geo info](http://results.openaddresses.io/)
 
 #### Dataset:
 [Denver Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608381/us/co/denver.zip),
 [Colorado Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608168/us/co/statewide.zip),
-[Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*,
+[Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*
 
 #### Reference:
 [Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
