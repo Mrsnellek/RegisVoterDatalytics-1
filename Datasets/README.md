@@ -3,11 +3,11 @@
 ### 1. [Census Block Group in Colorado_2013-2017](https://data.colorado.gov/browse?q=census%20block%20groups&sortBy=relevance) - *CIM*
 
 #### Dataset:
-[2013](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2013/9gri-r239) 
-[2014](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2014/cmkv-zd4f) 
-[2015](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2015/6hee-tnp6) 
-[2016](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2016/iku4-4bpx) 
-[2017](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2017/ty5m-9xub) 
+[2013](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2013/9gri-r239),
+[2014](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2014/cmkv-zd4f), 
+[2015](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2015/6hee-tnp6), 
+[2016](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2016/iku4-4bpx), 
+[2017](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2017/ty5m-9xub), 
 [Geojson](https://data.colorado.gov/Demographics/Census-Block-Groups-in-Colorado-2010/kfm9-mvzv) <br>
 
 #### Reference: 
@@ -24,11 +24,11 @@
 ### 2. [Colorado Registered Voters_2014-2019](http://coloradovoters.info)
 
 #### Dataset: 
-[2014](http://coloradovoters.info/downloads/20140902/) 
-[2015](http://coloradovoters.info/downloads/20151001/) 
-[2016](http://coloradovoters.info/downloads/20160601/) 
-[2017](http://coloradovoters.info/downloads/20170801/) 
-[2018](http://coloradovoters.info/downloads/20181101/)
+[2014](http://coloradovoters.info/downloads/20140902/), 
+[2015](http://coloradovoters.info/downloads/20151001/), 
+[2016](http://coloradovoters.info/downloads/20160601/), 
+[2017](http://coloradovoters.info/downloads/20170801/), 
+[2018](http://coloradovoters.info/downloads/20181101/),
 [2019](http://coloradovoters.info/downloads/20190101/) <br>
 
 #### Reference: 
@@ -55,9 +55,9 @@
 ### 4.[Address List and Geo info](http://results.openaddresses.io/)
 
 #### Dataset:
-[Denver Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608381/us/co/denver.zip)
-[Colorado Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608168/us/co/statewide.zip)
-[Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*
+[Denver Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608381/us/co/denver.zip),
+[Colorado Open Address](https://s3.amazonaws.com/data.openaddresses.io/runs/608168/us/co/statewide.zip),
+[Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*,
 
 #### Reference:
 [Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
