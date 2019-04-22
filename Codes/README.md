@@ -1,1 +1,3 @@
 List of files and usage.
+
+The Racial_Demographis_of_Colorado_Voters.R file is used to combine Colorado voter data with census demographic data. Racial demographics are added to voters based on their surnames. The default threshold for assigning racial demographics to surnames is set at 90%, however, this threshold can be easily changed in the R file.  If 90% of voters with a given surname identify as one race, all voters with that surname are assumed to identify with that race. Political party affiliation is analyzed by race and year and p-values are calculated to identify which political parties have significantly different numbers of voters based on race and year. The R file also identifies which political party voters switch to and from political based on their race.
