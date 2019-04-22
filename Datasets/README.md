@@ -1,4 +1,4 @@
-## [Raw datasets](https://drive.google.com/drive/folders/1-YH2q9zUzGlb3osYTGMf4n9hRPZo4OUE):
+## [Raw dataset](https://drive.google.com/drive/folders/1-YH2q9zUzGlb3osYTGMf4n9hRPZo4OUE):
 
 ### 1. [Census Block Group in Colorado_2013-2017](https://data.colorado.gov/browse?q=census%20block%20groups&sortBy=relevance) - *CIM*
 
@@ -13,7 +13,8 @@
 #### Reference: 
 [Census Data explanation](https://github.com/GoCodeColorado/GoCodeColorado-kbase-public/blob/187410313442847c357e04fb553a121941b297bf/Resources_for_Participants/Data/DOLA_Census_Data_GoCodeColorado.pdf) by Go Code Colorado & Department of Local Affair<br>
 [Census Field Description](https://data.colorado.gov/Demographics/Census-Field-Descriptions/qten-sdpn/data) by OIT & DOLA<br>
-[Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_CensusBlockGroup%202013-2017.ipynb) by Leo
+[Data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_CensusBlockGroup%202013-2017.ipynb) by Leo<br>
+[Geo data extracting and calculating process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverGeoCensesBlockGroup.ipynb) by Leo
 
 #### Note:
 1. No data about individuals.
@@ -33,7 +34,7 @@
 
 #### Reference: 
 [Readme on data format](http://coloradovoters.info/downloads/readme.doc) by http://coloradovoters.info<br>
-[Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
+[Data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
 
 #### Note:
 1. Data was collected all during the 2nd half of each year except 2019. They are stamped in Sep 2014, Oct 2015, Aug 2016, Aug 2017, Nov 2018 and Jan 2019;
@@ -46,7 +47,7 @@
 
 #### Reference:
 [Technical Documentation: Demographic Aspects of Surnames](https://www2.census.gov/topics/genealogy/2010surnames/surnames.pdf) by US Census Bureau<br>
-[Our data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_Surnames_2010Census_Full_CSV.ipynb) by Leo
+[Data cleansing process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_Surnames_2010Census_Full_CSV.ipynb) by Leo
 
 #### Note:
 1. Black is used interchangeably with Non-Hispanic Black or African American Alone; Hispanic is used interchangeably with Hispanic or Latino origin; Asian and Native Hawaiian and Other Pacific Islander is used interchangeably with Non-Hispanic Asian and Native Hawaiian and Other Pacific Islander Alone.
@@ -60,4 +61,24 @@
 [Countiesin Colorado](https://data.colorado.gov/Transportation/Counties-in-Colorado/67vn-ijga) - *CIM*
 
 #### Reference:
-[Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
+[Data cleansing process] (https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverAddressCensusBlock.ipynb) by Leo <br>
+[Final Data merging process](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Codes/Preparation_DenverVoters2014_2019.ipynb) by Leo
+
+## [Clean Dataset]
+
+Our clean and final master datasets can be found in the team's [Google Drive](https://drive.google.com/drive/folders/1VQgAPKMzG7VStU8c5u1aivYBI6EGBREG) 
+
+### 1. CensusBlockGroup_2013-2017.csv
+Clean data with census block group statics and geo info, compiled from the 5-year raw data.
+
+### 2. SurnameToRaces_Census2010.csv
+Clean data with racial possibility assigned to surnames, compiled from 2010 National Census data.
+
+### 3. DenverCensusBlockGroup_Geoinfo.csv
+Filter census block group geo data with centriods and polygons for mapping, extracted and calculated from the geojson file of Census Block Group in Colorado.
+
+### 4. DenverAddress_CensusBlockGroup.csv
+Merged results of Denver Address and Census Block Group Datasets.
+
+### 5. Denver_Voters_Master_2014-2019.csv
+Final master dataset to run analysis code against, results from merging SurnameToRaces_Census2010.csv, DenverAddress_CensusBlockGroup.csv and cleaned denver voter history data 2014-2019.
