@@ -40,8 +40,8 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 <br>
 There is a significant difference <<<0.05 in the number of voters in the Dem, Rep, and UAF political parties in almost all racial groups in our findings.
 
-Please also check our [interactive dashboard](https://drive.google.com/open?id=1Ox-EbcLZ4bHj6ZU9tbQJjbI7Vy6ubHa6) [semi-final pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad.
-* Dashboard is saved in Google Drive because it is too large (31MB)
+Please also check our [interactive dashboard](https://drive.google.com/open?id=1Ox-EbcLZ4bHj6ZU9tbQJjbI7Vy6ubHa6) [semi-final pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad. <br>
+*Note: Dashboard is saved in Google Drive because it is too large (31MB)*
 
 #### User Case 2: Republican campaign manager
 
@@ -52,13 +52,13 @@ Comparing to their current baseline:
 2. Strategy B: more preferable by 5% of African Americans, but 1% of current republicans will not vote for it.
 
 #### Our approach:
-1. Arrange datasets with voters possibility to stick with the party or not for each combination of age, racial group, and party.(Dummy datasets were created to mimic a real survey result, which is normally provided by clients. However, we can't use any real-life data for this competitaion due to its sensitivity.)
+1. Arrange datasets with voters possibility to stick with the party for each combination of age, racial group, and party. <br>(Dummy datasets were created to mimic a real survey result, which is normally provided by clients. However, we can't use any real-life data for this competitaion due to its sensitivity.)
 2. For each voter, look up their possibility based on age, race, and party in the survey dataset.
 3. Aggregate and compare.
 
 
 #### Main questions answered:
-1. Which plan is better
+1. The better plan between the 2 strategies.
 2. The most important groups and locations for canvassing, considering the campaign resources are always, always limited.
 
 
