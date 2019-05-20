@@ -82,5 +82,8 @@ Merged results of Denver Address and Census Block Group Datasets.
 ### 5. Denver_Voters_Master_2014-2019.csv
 Final master dataset to run analysis code against, results from merging SurnameToRaces_Census2010.csv, DenverAddress_CensusBlockGroup.csv and cleaned denver voter history data 2014-2019.
 
+### Dummy A.csv and Dummy B.csv
+Dummy datasets created to reflect survey results for Strategy A and B for User Case 2.
+
 ## Data Architect Diagram
 [PDF](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/Datasets/Diagram.pdf)
