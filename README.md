@@ -4,8 +4,8 @@
 ## Regis Voter Datalytics - Data Analytics Track of Go Code Colorado 2019
 ### Team Member: 
 
-| Rich Paschen | Kellen Sorauf | Meng "Leo" Luo|
-|--|--|--|
+| Rich Paschen | Kellen Sorauf | Meng "Leo" Luo|Chad Bates|
+|--|--|--|--|
 
 ### Problem:
 Since Colorado does not ask for race/ethnicity when we register to vote, campaign managers/activists have no idea of the ethnicity/race of Colorado voters or they have to pay premium to access external data without a way to examine the provided predictive models directly.
@@ -23,11 +23,14 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 1. Create map with voter history data and geo information.
 2. Assign racial possibility individually according to census data
 3. Aggregate and analyze each category and compare the changes every year.
-4. Visualize our results and ask for feedback
+4. Visualize our results
+5. Ask feedback from our clients and provide access for them to join our data with their sensitive compaign data.
+
 
 #### Main questions answered:
 1. Race and ethnic breakdown and % change of voters since 2014
 2. Comparision between different groups and locations
+3. Parallel predictions - Which is a better campaign strategy.
 
 #### Main finding:
 
@@ -37,12 +40,12 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 <br>
 There is a significant difference <<<0.05 in the number of voters in the Dem, Rep, and UAF political parties in almost all racial groups in our findings.
 
-Please also check our [Power BI dashboard](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Dashboards.pbix), [presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) and [pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich.
+Please also check our [interactive dashboard](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Dashboards.pbix), [pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4), ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad.
 
 
-### Next stage:
-1. Expand to the whole state
-2. Collect data on targeted ad campaigns from client to analyze their efficiency and possible ways for improvement
+### What can we do next:
+1. Make it easier for client to access our data and combine their sensitve data with ours.
+2. Collect data from more cities.
 
-# Thank you for reviewing our project! 
+# Thank you for reviewing our project! Hope you Enjoy it.
 
