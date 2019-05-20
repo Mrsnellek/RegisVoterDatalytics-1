@@ -40,8 +40,8 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 <br>
 There is a significant difference <<<0.05 in the number of voters in the Dem, Rep, and UAF political parties in almost all racial groups in our findings.
 
-Please also check our [interactive dashboard](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Dashboards.pbix), [pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4), ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad.
-
+Please also check our [interactive dashboard](https://drive.google.com/open?id=1Ox-EbcLZ4bHj6ZU9tbQJjbI7Vy6ubHa6) [semi-final pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad.
+* Dashboard is saved in Google Drive because it is too large (31MB)
 
 ### What can we do next:
 1. Make it easier for client to access our data and combine their sensitve data with ours.
