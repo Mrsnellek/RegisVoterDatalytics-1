@@ -4,7 +4,7 @@
 ## Regis Voter Datalytics - Data Analytics Track of Go Code Colorado 2019
 ### Team Member: 
 
-| Rich Paschen | Kellen Sorauf | Meng "Leo" Luo|Chad Bates|
+| [Rich Paschen](https://www.linkedin.com/in/richp943/) | [Kellen Sorauf](https://www.linkedin.com/in/kellen-sorauf-3983505/) | [Meng "Leo" Luo](https://www.linkedin.com/in/leo-archer-69964977/)| [Chad Bates](https://www.linkedin.com/in/chad-bates-53499930/)|
 |--|--|--|--|
 
 ### Problem:
@@ -40,8 +40,9 @@ Since Colorado does not ask for race/ethnicity when we register to vote, campaig
 <br>
 There is a significant difference <<<0.05 in the number of voters in the Dem, Rep, and UAF political parties in almost all racial groups in our findings.
 
-Please also check our [interactive dashboard](https://drive.google.com/open?id=1Ox-EbcLZ4bHj6ZU9tbQJjbI7Vy6ubHa6) [semi-final pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad. <br>
-*Note: Dashboard is saved in Google Drive because it is too large (31MB)*
+Please also check our [PowerBI dashboard](https://drive.google.com/open?id=1Ox-EbcLZ4bHj6ZU9tbQJjbI7Vy6ubHa6), [semi-final pitch video](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics%20Presentation.mp4) ([Loom link](https://www.loom.com/share/4265210e8d174e83bb203e8e539a60f3)) by Rich, and [final presentation](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/AnalyticsResults/Team%20Regis%20Voter%20Datalytics_GoCodeColorado_2019.pptx) by Chad. <br>
+*Note: Dashboard is saved in Google Drive because it is too large (31MB). It is interactive once loaded in PowerBI. We will also show how it works during the final presentation*
+
 
 #### User Case 2: Republican campaign manager
 
