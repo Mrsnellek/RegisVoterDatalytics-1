@@ -14,7 +14,16 @@ Load all Census Block Group geo data (Raw dataset #1) and calcute centroids etc.
 ### 5. Preparation_DenverVoters2014-2019.ipynb by Leo
 Load denver voter history (Raw dataset #2) and join with the results from code #1, #2 and #3 to create the final master dataset.
 
+### 6. Preparation_FeatureRemoval_MasterSheet.ipynb by Leo
+Remove attributes not useful from #5.
+
 ## Analysis
 
-### 6. Racial_Demographis_of_Colorado_Voters.R by Kellen
+### 7. Analysis_RacialDemographisOfColoradoVoters.R by Kellen
 It is used to combine Colorado voter data with census demographic data. Racial demographics are added to voters based on their surnames. The default threshold for assigning racial demographics to surnames is set at 90%, however, this threshold can be easily changed in the R file.  If 90% of voters with a given surname identify as one race, all voters with that surname are assumed to identify with that race. Political party affiliation is analyzed by race and year and p-values are calculated to identify which political parties have significantly different numbers of voters based on race and year. The R file also identifies which political party voters switch to and from political based on their race.
+
+
+### 8. Analysis_PercentChangeStats.R by Kellen
+
+### 9. Prediction_SwitchPartyWithDummyData.ipynb by Leo
+It is the script used for User Case 2 detailed in the [README.md](https://github.com/GoCodeColorado/RegisVoterDatalytics/blob/master/README.md) and [Slide 11 Results - Parallel Predictions](https://docs.google.com/presentation/d/1SN2nTwi3BMhU7PuVNJwtheuNvNFbm10u8en0IrFX_a0/edit#slide=id.p11).
